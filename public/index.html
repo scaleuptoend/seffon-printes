@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Seffon Dupatta Center</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<style id="css">
+:root{--bg:#fff8f1;--card:#ffffff;--text:#2b1a1f;--muted:#6f5a60;--brand:#9b1c4b;--brand2:#e8a33d;--line:#f0dfd2;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1c1114;--card:#291920;--text:#fbeee6;--muted:#c4a9af;--brand:#f0709c;--brand2:#f0b85a;--line:#3d2a31}}
+:root[data-theme="dark"]{--bg:#1c1114;--card:#291920;--text:#fbeee6;--muted:#c4a9af;--brand:#f0709c;--brand2:#f0b85a;--line:#3d2a31}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Poppins,system-ui,sans-serif;line-height:1.6}
+h1,h2,h3{font-family:'Playfair Display',Georgia,serif;margin:0}
+.wrap{max-width:1050px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);border-bottom:1px solid var(--line);z-index:5}
+header .wrap{display:flex;justify-content:space-between;align-items:center;padding-top:12px;padding-bottom:12px}
+.logo{font-family:'Playfair Display',serif;font-weight:700;font-size:1.2rem;color:var(--brand)}
+.btn{display:inline-block;background:var(--brand);color:#fff;padding:10px 20px;border-radius:999px;text-decoration:none;font-weight:600;font-size:.95rem}
+.btn.alt{background:transparent;color:var(--brand);border:2px solid var(--brand)}
+.hero{padding:64px 0 48px;text-align:center;background:linear-gradient(135deg,rgba(155,28,75,.12),rgba(232,163,61,.15))}
+.hero h1{font-size:clamp(2.2rem,7vw,3.8rem);line-height:1.15;color:var(--brand)}
+.hero p{max-width:560px;margin:16px auto 28px;color:var(--muted);font-size:1.05rem}
+.hero .btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+section{padding:52px 0}
+h2{font-size:2rem;text-align:center;margin-bottom:8px}
+.sub{text-align:center;color:var(--muted);margin:0 0 32px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.sw{height:130px}
+.card div.b{padding:16px}
+.card h3{font-size:1.15rem;margin-bottom:4px}
+.card p{margin:0;color:var(--muted);font-size:.9rem}
+.why{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px;text-align:center}
+.why div{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px}
+.why b{display:block;font-size:2rem}
+.about{display:grid;grid-template-columns:1.3fr 1fr;gap:28px;align-items:center}@media(max-width:700px){.about{grid-template-columns:1fr}}.about p{color:var(--muted);margin:0 0 14px}.stats{display:grid;grid-template-columns:1fr 1fr;gap:14px}.stats div{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;text-align:center}.stats b{display:block;font-family:"Playfair Display",serif;font-size:1.8rem;color:var(--brand)}.tag{display:inline-block;background:var(--brand2);color:#2b1a1f;font-weight:600;font-size:.8rem;padding:4px 12px;border-radius:999px;margin-bottom:14px}.contact a.num2{color:#fff;text-decoration:none;font-weight:600}.contact{background:var(--brand);color:#fff;text-align:center;border-radius:20px;padding:40px 20px}
+.contact h2{color:#fff}
+.contact a.num{display:block;font-size:clamp(1.8rem,6vw,2.6rem);font-weight:600;color:#fff;text-decoration:none;margin:12px 0 20px}
+.contact .btn{background:#fff;color:var(--brand)}
+footer{text-align:center;color:var(--muted);font-size:.85rem;padding:28px 0 40px}
+a.card{display:block;color:inherit;text-decoration:none;transition:transform .2s,box-shadow .2s}a.card:hover{transform:translateY(-4px);box-shadow:0 8px 20px rgba(0,0,0,.12)}.more{display:inline-block;margin-top:10px;color:var(--brand);font-weight:600;font-size:.9rem}.pc .sw{height:170px;background-size:cover;background-position:center}.pc .wa{display:block;text-align:center;margin-top:12px;background:#25a244;color:#fff;padding:8px;border-radius:999px;text-decoration:none;font-weight:600;font-size:.9rem}.pc .mq{font-size:.8rem;color:var(--muted)}
+.qty{display:flex;align-items:center;gap:6px;margin-top:10px}.qty button,.ci button{width:34px;height:34px;flex:none;border-radius:50%;border:1px solid var(--line);background:var(--card);color:var(--text);font-size:1.1rem;cursor:pointer}.qty input,.f input{width:100%;min-width:0;text-align:center;border:1px solid var(--line);border-radius:10px;height:36px;background:var(--bg);color:var(--text);font:inherit}.qty small{color:var(--muted);flex:none}
+.add{width:100%;margin-top:10px;border:0;background:var(--brand);color:#fff;padding:9px;border-radius:999px;font:600 .9rem Poppins,sans-serif;cursor:pointer}.add.ok{background:#25a244}.rate{display:block;text-align:center;margin-top:8px;font-size:.8rem;color:var(--brand);text-decoration:none}
+#bar{position:fixed;left:0;right:0;bottom:0;display:none;z-index:8;background:var(--brand);color:#fff;padding:12px 20px calc(12px + env(safe-area-inset-bottom,0px));justify-content:space-between;align-items:center;gap:12px;cursor:pointer;font-weight:600}#bar span.v{background:#fff;color:var(--brand);padding:7px 16px;border-radius:999px}
+#ov{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:20;display:none;align-items:flex-end;justify-content:center}#ov.on{display:flex}
+#pn{background:var(--bg);width:100%;max-width:520px;max-height:92%;overflow:auto;border-radius:20px 20px 0 0;padding:20px 20px calc(20px + env(safe-area-inset-bottom,0px))}
+#pn h2{text-align:left;font-size:1.5rem;display:flex;justify-content:space-between;align-items:center}#pn h2 button{border:0;background:none;font-size:1.6rem;color:var(--muted);cursor:pointer}
+.ci{display:flex;align-items:center;gap:8px;padding:10px 0;border-bottom:1px solid var(--line)}.ci b{flex:1;font-weight:500;font-size:.92rem}.ci i{font-style:normal;min-width:48px;text-align:center;font-weight:600}.ci .cx{color:#c1121f}
+.f{display:grid;gap:10px;margin:16px 0}.f input{text-align:left;padding:0 12px}.tot{display:flex;justify-content:space-between;font-weight:600;padding:12px 0}.send{width:100%;border:0;background:#25a244;color:#fff;padding:13px;border-radius:999px;font:600 1rem Poppins,sans-serif;cursor:pointer}.note{color:var(--muted);font-size:.8rem;text-align:center;margin:10px 0 0}
+#adm{position:fixed;inset:0;background:var(--bg);z-index:30;display:none;overflow:auto}#adm.on{display:block}.ap{max-width:640px;margin:0 auto;padding:16px 20px 120px}.ap h2{text-align:left;font-size:1.5rem;display:flex;justify-content:space-between;align-items:center}.ap h2 button{border:0;background:none;font-size:1.6rem;color:var(--muted);cursor:pointer}
+.tabs{display:flex;gap:8px;margin:12px 0}.tabs button{flex:1;padding:9px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--text);font:600 .9rem Poppins,sans-serif;cursor:pointer}.tabs .on{background:var(--brand);color:#fff;border-color:var(--brand)}
+.f select{height:36px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--text);padding:0 10px;font:inherit}.f input[type=color]{width:56px;padding:2px;flex:none}.f input[type=file]{height:auto;padding:6px}.row{display:flex;gap:8px}.ap .send+.send{background:var(--muted);margin-top:8px}
+.ar{display:flex;align-items:center;gap:6px;padding:8px 0;border-bottom:1px solid var(--line);flex-wrap:wrap}.ar i{width:40px;height:40px;border-radius:8px;flex:none;background-size:cover!important}.ar b{flex:1;font-weight:500;font-size:.85rem;min-width:120px}.ar button{border:1px solid var(--line);background:var(--card);color:var(--text);border-radius:999px;padding:5px 10px;font:inherit;font-size:.75rem;cursor:pointer}.ar .x{color:#c1121f}
+.pb{position:fixed;left:0;right:0;bottom:0;background:var(--card);border-top:1px solid var(--line);padding:12px 20px calc(12px + env(safe-area-inset-bottom,0px));display:flex;gap:14px;align-items:center;justify-content:center}.pb .send{width:auto;padding:11px 22px}
+.oc{border:1px solid var(--line);border-radius:12px;padding:12px;margin:10px 0;background:var(--card);font-size:.85rem}.oc ul{margin:6px 0;padding-left:18px}.f label{font-size:.85rem;color:var(--muted);display:grid;gap:4px}
+</style>
+</head>
+<body>
+<header><div class="wrap"><span class="logo">Seffon Dupatta Centre</span><a class="btn" href="tel:+919962371625">Call Now</a></div></header>
+
+<div id="home"><div class="hero"><div class="wrap">
+<span class="tag">WHOLESALE ONLY · SINCE 2012</span>
+<h1>Manufacturer of Fancy Dupattas, Hijabs, Scarfs &amp; Stoles</h1>
+<p>Quality products at the best wholesale prices, supplied to resellers across India from our branches in Chennai and Surat.</p>
+<div class="btns"><a class="btn" href="https://wa.me/919629737237?text=Hi%2C%20I%20am%20interested%20in%20wholesale%20dupattas">Get Wholesale Rates</a><a class="btn alt" href="#about">About Us</a></div>
+</div></div>
+
+<section id="about"><div class="wrap"><div class="about">
+<div>
+<h2 style="text-align:left">About Us</h2>
+<p style="margin-top:10px">Established in 2012, Seffon Dupatta Centre is a wholesale manufacturer and supplier of exclusive fancy dupattas, hijabs, scarfs and stoles. Over the years we have built a strong reputation among retailers, boutiques and resellers for consistent quality, a wide choice of colours and fabrics, and competitive pricing.</p>
+<p>We work exclusively with the trade. Every order, from a single bulk lot to regular repeat supply, is handled with the same commitment to quality, timely dispatch and transparent dealing. With branches in Chennai and Surat, we deliver to businesses all over India.</p>
+<p><b>Resellers are always welcome.</b> Contact us for wholesale rates, catalogues and bulk order enquiries.</p>
+</div>
+<div class="stats"><div><b>2012</b>Established</div><div><b>2</b>Branches</div><div><b>Pan-India</b>Supply</div><div><b>100%</b>Wholesale</div></div>
+</div></div></section>
+
+<section id="collection" style="padding-top:0"><div class="wrap">
+<h2>Our Products</h2><p class="sub">Available in a wide range of colours and fabrics, wholesale only</p>
+<div class="grid">
+<a class="card" href="#/dupattas"><div class="sw" style="background:linear-gradient(135deg,#9b1c4b,#e8a33d)"></div><div class="b"><h3>Fancy Dupattas</h3><p>Stylish designs for every occasion.</p><span class="more">View all →</span></div></a>
+<a class="card" href="#/hijabs"><div class="sw" style="background:linear-gradient(135deg,#2f6f6b,#a8d5c9)"></div><div class="b"><h3>Hijabs</h3><p>Soft, comfortable and available in many colours.</p><span class="more">View all →</span></div></a>
+<a class="card" href="#/scarfs"><div class="sw" style="background:linear-gradient(135deg,#c2410c,#fbbf24)"></div><div class="b"><h3>Scarfs</h3><p>Everyday and fashion scarfs for retail.</p><span class="more">View all →</span></div></a>
+<a class="card" href="#/stoles"><div class="sw" style="background:linear-gradient(135deg,#4c1d95,#f0abfc)"></div><div class="b"><h3>Stoles</h3><p>Lightweight, elegant stoles in bulk.</p><span class="more">View all →</span></div></a>
+</div>
+</div></section>
+
+<section><div class="wrap">
+<h2>Why Partner With Us</h2><p class="sub">Reliable wholesale supply for your business</p>
+<div class="why">
+<div><b>🏭</b>Direct Manufacturer</div>
+<div><b>💯</b>Best Wholesale Price</div>
+<div><b>🇮🇳</b>All India Supply</div>
+<div><b>🤝</b>Resellers Welcome</div>
+</div>
+</div></section>
+
+<section id="contact"><div class="wrap"><div class="contact">
+<h2>Contact Us</h2>
+<p>Mc Road, Old Washermenpet, Chennai, India 600021<br>Branches: Chennai &amp; Surat</p>
+<a class="num" href="tel:+919962371625">99623 71625</a>
+<a class="btn" href="https://wa.me/919629737237">WhatsApp: 96297 37237</a>
+<p style="margin-top:18px"><a class="num2" href="https://www.instagram.com/dupatta_scarf">Instagram @dupatta_scarf</a></p>
+</div></div></section>
+
+</div>
+<div id="cat" style="display:none"><div class="wrap" style="padding-top:28px;padding-bottom:40px"><a class="btn alt" href="#home" onclick="document.getElementById('home').scrollIntoView&&0">← Back to Home</a><h2 id="ct" style="margin-top:22px"></h2><p class="sub" id="cs"></p><div class="grid" id="pg"></div></div></div>
+<footer>© 2026 Seffon Dupatta Centre. Wholesale only. <a href="#/admin" style="color:var(--muted);margin-left:8px">Admin</a></footer>
+<div id="bar" role="button" tabindex="0"><span id="bc">0 items</span><span class="v">View Order</span></div>
+<div id="ov"><div id="pn" role="dialog" aria-label="Your order">
+<h2>Your Order <button type="button" id="cc" aria-label="Close">×</button></h2>
+<div id="cl"></div>
+<div class="tot"><span>Total quantity</span><span id="tt">0 pcs</span></div>
+<div class="f"><input id="fn" placeholder="Your name" autocomplete="name"><input id="fp" type="tel" placeholder="Phone number" autocomplete="tel"><input id="fc" placeholder="Shop name / City" autocomplete="off"></div>
+<p class="note" id="er" style="color:#c1121f;margin:0 0 8px"></p>
+<button type="button" class="send" onclick="send()">Send Order on WhatsApp</button>
+<p class="note">Rates are confirmed by us on WhatsApp. No payment is taken here.</p>
+</div></div>
+<script>
+var CATS={
+ dupattas:{t:"Fancy Dupattas",d:"Stylish fancy dupattas in a wide range of colours",n:"Fancy Dupatta"},
+ hijabs:{t:"Hijabs",d:"Soft, comfortable hijabs in many colours",n:"Hijab"},
+ scarfs:{t:"Scarfs",d:"Everyday and fashion scarfs for resellers",n:"Scarf"},
+ stoles:{t:"Stoles",d:"Lightweight, elegant stoles in bulk",n:"Stole"}
+};
+var COLORS=[["Maroon","#7a1f3d"],["Royal Blue","#1e40af"],["Black","#1f1f1f"],["Peach","#f4a58a"],["Sea Green","#2f8f83"],["Mustard","#d6a21e"],["Pink","#e75a9a"],["Purple","#6b21a8"],["Red","#c1121f"],["Off White","#f1ead9"],["Sky Blue","#7cc4ee"],["Grey","#7b8088"]];
+var DATA={s:{min:12,step:12,wa:"919629737237"},p:[]},TOK="",MIN=12,STEP=12,WA="919629737237",cart={},ED=null,ORD=[];
+try{TOK=sessionStorage.getItem("tk")||""}catch(e){}
+function $(i){return document.getElementById(i)}
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+function seed(){var k=0,p=[];for(var c in CATS)COLORS.forEach(function(x){p.push({id:"p"+(k++),c:c,n:CATS[c].n+" - "+x[0],h:x[1],pr:0,o:0,i:0,v:0})});return p}
+function apply(d){
+ DATA.s=d.s||DATA.s;DATA.p=d.s?d.p:(d.p&&d.p.length?d.p:seed());
+ DATA.p.sort(function(a,b){return (parseInt(a.id.slice(1))||0)-(parseInt(b.id.slice(1))||0)});
+ MIN=DATA.s.min;STEP=DATA.s.step;WA=DATA.s.wa;
+}
+function api(path,opt){
+ opt=opt||{};opt.headers={"Content-Type":"application/json","x-token":TOK};
+ return fetch(path,opt).then(function(r){return r.json().then(function(j){
+  if(r.status===401){TOK="";try{sessionStorage.removeItem("tk")}catch(e){}openAdm();throw new Error(j.error||"Login required")}
+  if(!r.ok)throw new Error(j.error||"Error");return j})});
+}
+function imgUrl(x){return "/api/img?id="+x.id+"&v="+x.v}
+
+/* ---------- Customer site ---------- */
+function route(){
+ if(location.hash==="#/admin"){openAdm();return}
+ if($("adm"))$("adm").className="";
+ var m=location.hash.match(/^#\/(\w+)/),c=m&&CATS[m[1]],h=$("home"),p=$("cat");
+ if(!c){h.style.display="";p.style.display="none";return}
+ h.style.display="none";p.style.display="";
+ $("ct").textContent=c.t;$("cs").textContent=c.d+" · Wholesale only";
+ document.title=c.t+" | Seffon Dupatta Centre";
+ var key=m[1],html="",L=DATA.p.filter(function(x){return x.c==key});
+ if(!L.length)html='<p class="sub">No products yet.</p>';
+ L.forEach(function(x){
+  var nm=esc(x.n),bg=x.i?"url('"+imgUrl(x)+"') center/cover":"linear-gradient(135deg,"+x.h+",#ffffff55)",
+  msg=encodeURIComponent("Hi, I want wholesale rate for "+x.n),pr=x.pr?"₹"+x.pr+" / pc":"Wholesale only";
+  html+='<div class="card pc"><div class="sw" style="background:'+bg+'"></div><div class="b"><h3>'+nm+'</h3><p class="mq">'+pr+' · Min '+MIN+' pcs</p>'+(x.o?'<p class="mq" style="color:#c1121f;margin-top:10px"><b>Out of stock</b></p>':'<div class="qty"><button type="button" class="qm" aria-label="Less">−</button><input type="number" inputmode="numeric" min="'+MIN+'" step="'+STEP+'" value="'+MIN+'" aria-label="Quantity"><small>pcs</small><button type="button" class="qp" aria-label="More">+</button></div><button type="button" class="add" data-n="'+nm+'">Add to Order</button>')+'<a class="rate" href="https://wa.me/'+WA+'?text='+msg+'">Ask wholesale rate</a></div></div>';
+ });
+ $("pg").innerHTML=html;window.scrollTo(0,0);
+}
+
+/* ---------- Order cart ---------- */
+function total(){var t=0;for(var k in cart)t+=cart[k];return t}
+function count(){return Object.keys(cart).length}
+function upd(){var b=$("bar");b.style.display=count()?"flex":"none";$("bc").textContent=count()+" item"+(count()>1?"s":"")+" · "+total()+" pcs"}
+function draw(){
+ var h="";for(var k in cart)h+='<div class="ci"><b>'+esc(k)+'</b><button type="button" class="cm" data-n="'+esc(k)+'">−</button><i>'+cart[k]+'</i><button type="button" class="cp" data-n="'+esc(k)+'">+</button><button type="button" class="cx" data-n="'+esc(k)+'" aria-label="Remove">✕</button></div>';
+ $("cl").innerHTML=h||'<p class="note">Your order list is empty. Add products to start.</p>';
+ $("tt").textContent=total()+" pcs";upd();
+ if(!count())$("ov").classList.remove("on");
+}
+document.addEventListener("click",function(e){
+ var t=e.target,n=t.getAttribute&&t.getAttribute("data-n"),c=(typeof t.className==="string"&&t.className)||"",q;
+ if(t.closest&&t.closest("#adm"))return;
+ if(c.indexOf("qm")>-1||c.indexOf("qp")>-1){q=t.parentNode.querySelector("input");var v=parseInt(q.value)||MIN;v+=c.indexOf("qp")>-1?STEP:-STEP;q.value=Math.max(MIN,v)}
+ else if(c.indexOf("add")>-1&&n){q=t.parentNode.querySelector("input");var a=Math.max(MIN,parseInt(q.value)||MIN);cart[n]=(cart[n]||0)+a;upd();t.textContent="Added ✓ ("+cart[n]+" pcs)";t.classList.add("ok");setTimeout(function(){t.textContent="Add to Order";t.classList.remove("ok")},1500)}
+ else if(c.indexOf("cp")>-1&&n){cart[n]+=STEP;draw()}
+ else if(c.indexOf("cm")>-1&&n){cart[n]=Math.max(MIN,cart[n]-STEP);draw()}
+ else if(c.indexOf("cx")>-1&&n){delete cart[n];draw()}
+ else if(t.closest&&t.closest("#bar")){draw();$("ov").classList.add("on")}
+ else if(t.id==="ov"||t.id==="cc"){$("ov").classList.remove("on")}
+});
+function send(){
+ var nm=$("fn").value.trim(),ph=$("fp").value.trim(),ct=$("fc").value.trim();
+ if(!nm||!ph||!ct){$("er").textContent="Please fill in your name, phone and shop / city.";return}
+ $("er").textContent="";
+ var items=Object.keys(cart).map(function(k){return{n:k,q:cart[k]}}),i=1,
+ m="*New Wholesale Order*\n\nName: "+nm+"\nPhone: "+ph+"\nShop / City: "+ct+"\n\n*Items*\n";
+ items.forEach(function(x){m+=(i++)+". "+x.n+" x "+x.q+" pcs\n"});
+ m+="\n*Total: "+total()+" pcs*\n\nPlease confirm rates, availability and dispatch time.";
+ window.open("https://wa.me/"+WA+"?text="+encodeURIComponent(m),"_blank");
+ fetch("/api/order",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({name:nm,phone:ph,city:ct,items:items})}).catch(function(){}).then(function(){cart={};draw()});
+}
+
+/* ---------- Admin panel ---------- */
+var PANEL='<div class="ap"><h2>Admin panel <button type="button" data-a="close" aria-label="Close">×</button></h2><div class="tabs"><button type="button" class="on" data-a="tab" data-t="p">Products</button><button type="button" data-a="tab" data-t="o">Orders</button><button type="button" data-a="tab" data-t="s">Settings</button></div>'
++'<div id="tp"><div class="f"><select id="ac"></select><input id="an" placeholder="Product name (e.g. Hijab - Maroon)"><div class="row"><input id="ah" type="color" value="#9b1c4b" aria-label="Colour"><input id="apr" type="number" inputmode="numeric" placeholder="Price per piece ₹ (optional)"></div><input id="ai" type="file" accept="image/*"></div><button type="button" class="send" id="sv" data-a="sv">Add product</button><button type="button" class="send" id="cn" data-a="cn" style="display:none">Cancel edit</button><div class="f"><select id="af"></select></div><div id="alist"></div></div>'
++'<div id="to" style="display:none"><div id="ol"></div></div>'
++'<div id="ts" style="display:none"><div class="f"><label>Minimum order (pieces)<input id="sm" type="number"></label><label>Order step (pieces)<input id="ss" type="number"></label><label>WhatsApp number for orders (with country code)<input id="sw" type="tel"></label></div><button type="button" class="send" data-a="out">Log out</button></div></div>'
++'<div class="pb"><span id="ast" class="note" style="margin:0">No changes</span><button type="button" class="send" data-a="pub">Save changes</button></div>';
+function opts(all){var h=all?'<option value="">All categories</option>':'';for(var k in CATS)h+='<option value="'+k+'">'+CATS[k].t+'</option>';return h}
+function openAdm(){
+ var d=$("adm");if(!d){d=document.createElement("div");d.id="adm";document.body.appendChild(d)}
+ d.className="on";
+ if(!TOK){d.innerHTML='<div class="ap"><h2>Admin login <button type="button" data-a="close" aria-label="Close">×</button></h2><div class="f"><input id="pw" type="password" placeholder="Admin password" autocomplete="current-password"></div><p class="note" id="le" style="color:#c1121f"></p><button type="button" class="send" data-a="login">Login</button></div>';return}
+ d.innerHTML=PANEL;$("ac").innerHTML=opts();$("af").innerHTML=opts(1);$("af").onchange=lst;
+ $("sm").value=DATA.s.min;$("ss").value=DATA.s.step;$("sw").value=DATA.s.wa;lst();
+}
+function dirty(){$("ast").textContent="Unsaved changes"}
+function lst(){
+ var f=$("af").value,h="";
+ DATA.p.forEach(function(x){if(f&&x.c!==f)return;
+  var th=x.img?x.img:(x.i?imgUrl(x):"");
+  h+='<div class="ar"><i style="background:'+(th?"url('"+th+"')":x.h)+'"></i><b>'+esc(x.n)+(x.pr?' · ₹'+x.pr:'')+(x.o?' · out of stock':'')+'</b><button type="button" data-a="st" data-id="'+x.id+'">'+(x.o?'Mark in stock':'Out of stock')+'</button><button type="button" data-a="ed" data-id="'+x.id+'">Edit</button><button type="button" class="x" data-a="del" data-id="'+x.id+'">Delete</button></div>'});
+ $("alist").innerHTML=h||'<p class="note">No products here. Add one above.</p>';
+}
+function clr(){ED=null;$("an").value="";$("apr").value="";$("ai").value="";$("sv").textContent="Add product";$("cn").style.display="none"}
+function cmp(file,cb){var r=new FileReader();r.onload=function(){var im=new Image();im.onload=function(){var z=Math.min(1,480/Math.max(im.width,im.height)),c=document.createElement("canvas");c.width=Math.round(im.width*z);c.height=Math.round(im.height*z);c.getContext("2d").drawImage(im,0,0,c.width,c.height);cb(c.toDataURL("image/jpeg",.7))};im.src=r.result};r.readAsDataURL(file)}
+function svp(){
+ var n=$("an").value.trim();if(!n){$("an").focus();return}
+ function done(img){
+  var o=ED?DATA.p.filter(function(x){return x.id===ED})[0]:{id:"p"+Date.now(),i:0,v:0,o:0};
+  o.c=$("ac").value;o.n=n;o.h=$("ah").value;o.pr=parseInt($("apr").value)||0;if(img)o.img=img;
+  if(!ED)DATA.p.push(o);clr();dirty();lst();
+ }
+ var f=$("ai").files[0];if(f)cmp(f,done);else done("");
+}
+function saveAll(){
+ var s=DATA.s;s.min=Math.max(1,parseInt($("sm").value)||12);s.step=Math.max(1,parseInt($("ss").value)||12);s.wa=$("sw").value.replace(/\D/g,"")||s.wa;
+ $("ast").textContent="Saving…";
+ api("/api/products",{method:"POST",body:JSON.stringify({s:s,p:DATA.p})})
+ .then(function(){return fetch("/api/products").then(function(r){return r.json()})})
+ .then(function(d){apply(d);lst();$("ast").textContent="Saved ✓ Live now"})
+ .catch(function(e){$("ast").textContent=e.message});
+}
+function ords(){
+ $("ol").innerHTML='<p class="note">Loading…</p>';
+ api("/api/order").then(function(l){ORD=l;
+  $("ol").innerHTML=l.length?l.map(function(o){return '<div class="oc"><b>'+esc(o.name)+'</b> · <a href="tel:'+esc(o.phone)+'">'+esc(o.phone)+'</a><br>'+esc(o.city||"")+' · '+new Date(o.t).toLocaleString()+'<ul>'+o.items.map(function(x){return '<li>'+esc(x.n)+' × '+x.q+'</li>'}).join("")+'</ul><b>Total: '+o.total+' pcs</b> '+(o.st==="done"?'· done':'')+'<div class="ar"><button type="button" data-a="od" data-id="'+o.id+'">'+(o.st==="done"?'Mark as new':'Mark as done')+'</button><button type="button" class="x" data-a="ox" data-id="'+o.id+'">Delete</button></div></div>'}).join(""):'<p class="note">No orders yet.</p>';
+ }).catch(function(e){$("ol").innerHTML='<p class="note">'+esc(e.message)+'</p>'});
+}
+function arm(t,label,fn){if(!t.getAttribute("data-arm")){t.setAttribute("data-arm",1);t.textContent="Tap again";setTimeout(function(){t.removeAttribute("data-arm");t.textContent=label},3000)}else fn()}
+function login(){
+ fetch("/api/login",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({password:$("pw").value})})
+ .then(function(r){return r.json().then(function(j){if(!r.ok)throw new Error(j.error||"Login failed");TOK=j.token;try{sessionStorage.setItem("tk",TOK)}catch(e){}openAdm()})})
+ .catch(function(e){$("le").textContent=e.message});
+}
+document.addEventListener("keydown",function(e){if(e.key==="Enter"&&e.target.id==="pw")login()});
+document.addEventListener("click",function(e){
+ var t=e.target.closest&&e.target.closest("[data-a]");if(!t)return;
+ var a=t.getAttribute("data-a"),id=t.getAttribute("data-id"),p=DATA.p.filter(function(x){return x.id===id})[0],o=ORD.filter(function(x){return x.id===id})[0];
+ if(a==="close"){$("adm").className="";location.hash="#home"}
+ else if(a==="login")login();
+ else if(a==="out"){TOK="";try{sessionStorage.removeItem("tk")}catch(x){}openAdm()}
+ else if(a==="tab"){var T=t.getAttribute("data-t");$("tp").style.display=T==="p"?"":"none";$("to").style.display=T==="o"?"":"none";$("ts").style.display=T==="s"?"":"none";[].forEach.call(document.querySelectorAll(".tabs button"),function(b){b.className=b===t?"on":""});if(T==="o")ords()}
+ else if(a==="st"&&p){p.o=p.o?0:1;dirty();lst()}
+ else if(a==="ed"&&p){ED=id;$("ac").value=p.c;$("an").value=p.n;$("ah").value=p.h;$("apr").value=p.pr||"";$("ai").value="";$("sv").textContent="Update product";$("cn").style.display="";$("an").focus()}
+ else if(a==="del"&&p)arm(t,"Delete",function(){DATA.p.splice(DATA.p.indexOf(p),1);dirty();lst()});
+ else if(a==="cn")clr();else if(a==="sv")svp();else if(a==="pub")saveAll();
+ else if(a==="od"&&o)api("/api/order",{method:"PATCH",body:JSON.stringify({id:id,st:o.st==="done"?"new":"done"})}).then(ords);
+ else if(a==="ox"&&o)arm(t,"Delete",function(){api("/api/order",{method:"PATCH",body:JSON.stringify({id:id,del:1})}).then(ords)});
+});
+
+/* ---------- Start ---------- */
+window.addEventListener("hashchange",route);
+fetch("/api/products").then(function(r){return r.json()}).then(apply).catch(function(){apply({s:null,p:[]})}).then(route);
+</script>
+</body>
+</html>
